@@ -1,4 +1,7 @@
-Bolg
+initialization
+=====
+
+Blog
 ====
 
 my blog
