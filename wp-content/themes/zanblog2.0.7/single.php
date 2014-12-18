@@ -114,7 +114,7 @@
 			                </div>					                
 			            </div>
 			            <?php endwhile; else : ?>
-			            <div>暂无相关产品</div>
+			            <div>暂无相关文章</div>
 			            <?php endif; wp_reset_query(); } ?>
 					</div>
 				</div>

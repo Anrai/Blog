@@ -4,7 +4,6 @@
 	*/
 ?>
 <?php get_header(); ?>
-<script type="text/javascript" src="<?php bloginfo('template_url');?>/ui/js/prism.js"></script>
 <div id="zan-bodyer" style="padding-top: 30px;">
 	<div class="container">
 		<section class="row">
@@ -24,7 +23,7 @@
 					<p>
 						<?php the_content(); ?>
 					</p>
-					<code class=" language-css">p { color: red; }</code>
+					<pre><code class=" language-css">p { color: red; }</code></pre>
 				</article>
 				<?php endwhile; else: ?>
 				<p>

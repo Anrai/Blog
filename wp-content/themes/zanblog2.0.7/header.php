@@ -57,7 +57,7 @@
 
 <?php wp_head(); ?>
 <link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url');?>/ui/css/prism.css" />
-
+<script type="text/javascript" src="<?php bloginfo('template_url');?>/ui/js/prism.js"></script>
 <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements Responsive IE8-->
 <!--[if lt IE 9]>
   <script src="<?php echo get_template_directory_uri(); ?>/ui/js/modernizr.js"></script>
