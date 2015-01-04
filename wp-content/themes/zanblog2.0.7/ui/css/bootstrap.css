@@ -3881,11 +3881,18 @@ textarea.input-group-sm > .input-group-btn > .btn {
   padding: 10px 15px;
 }
 
-.nav > li > a:hover,
-.nav > li > a:focus {
+.nav > li > a:hover {
   text-decoration: none;
   background-color: #4FC1E9;
+}
 
+.nav > li > a:focus {
+  text-decoration: none;
+  color: #666;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
   transition: all .25s ease-in-out;
   -webkit-transition: all .25s ease-in-out;
   -moz-transition: all .25s ease-in-out;

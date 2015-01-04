@@ -429,6 +429,28 @@ div.search input[type="text"] {
 		 -o-transition: all .5s ease-in-out;
 }
 
+.panel .tab-content{
+	max-height: 500px;
+	overflow: hidden;
+	width: 100%;
+
+			transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	   -moz-transition: all .5s ease-in-out;
+		 -o-transition: all .5s ease-in-out;
+}
+
+.panel.toggled .tab-content{
+	overflow: hidden;
+	max-height: 0px;
+	width: 100%;
+
+			transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	   -moz-transition: all .5s ease-in-out;
+		 -o-transition: all .5s ease-in-out;
+}
+
 .panel.toggled .panel-heading {
 	border-bottom-right-radius: 3px;
 	border-bottom-left-radius: 3px;
@@ -460,7 +482,6 @@ ul.pills-zan li {
 
 .tab-content {
 	border-top: 1px solid #dddddd;
-	padding: 10px;
 }
 
 .tagcloud {

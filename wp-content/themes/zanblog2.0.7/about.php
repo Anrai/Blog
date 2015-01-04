@@ -20,10 +20,21 @@
 					    ?>
 					</div>	
 					<!-- 面包屑 -->
-					<p>
+					<div style="color: #666; font-size;14px;">
 						<?php the_content(); ?>
-					</p>
-					<pre><code class=" language-css">p { color: red; }</code></pre>
+					</div>
+					<pre><code class=" language-css">
+{
+    "nickname": "Anrai", 
+    "contact": {
+        "email": "huanglei.web[at]gamil.com",
+        "weibo": "@Anrai-Huang",
+    },
+    "locality": "Ningbo",
+    "skills": ["PHP", "MySQL", "Linux", "HTML", "CSS", "jQuery"],
+    "tags": ["摩羯男", "跑步", "读书", "旅游", "摄影"]
+}
+				</code></pre>
 				</article>
 				<?php endwhile; else: ?>
 				<p>

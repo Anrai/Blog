@@ -1,5 +1,5 @@
 <footer id="zan-footer">	      	
-	Copyright © 2014 <a target="_blank" title="方向的博客" href="http://www.huanglei.me/">方向的博客</a> HUANGLEI.ME All Rights Reserved.
+	Copyright © 2014-2015 <a target="_blank" title="Anrai" href="http://www.huanglei.me/">Anrai's Blog</a> HUANGLEI.ME All Rights Reserved.
 	<!--统计代码开始-->
     <?php $analytics = get_option('zanblog_analytics');if ($analytics != "") : ?>
     	<?php echo stripslashes($analytics); ?>
