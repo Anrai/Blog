@@ -27,8 +27,9 @@
 {
     "nickname": "Anrai", 
     "contact": {
-        "email": "huanglei.web[at]gamil.com",
+        "email": "anrai@huanglei.me",
         "weibo": "@Anrai-Huang",
+        "github": "https://github.com/Anrai", // →_→!!!没开源什么东西，丢人了
     },
     "locality": "Ningbo",
     "skills": ["PHP", "MySQL", "Linux", "HTML", "CSS", "jQuery"],

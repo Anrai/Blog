@@ -82,7 +82,7 @@ include( ABSPATH . 'wp-admin/admin-header.php' );
 
 <h1><?php printf( __( 'Welcome to WordPress %s' ), $display_version ); ?></h1>
 
-<div class="about-text"><?php printf( __( 'Thank you for updating! WordPress %s has lots of refinements we think you&#8217;ll love.' ), $display_version ); ?></div>
+<div class="about-text"><?php printf( __( 'Thank you for updating! WordPress %s helps you focus on your writing, and the new default theme lets you show it off in style.' ), $display_version ); ?></div>
 
 <div class="wp-badge"><?php printf( __( 'Version %s' ), $display_version ); ?></div>
 
@@ -111,7 +111,7 @@ if ( ! $credits ) {
 
 echo '<p class="about-description">' . __( 'WordPress is created by a worldwide team of passionate individuals.' ) . "</p>\n";
 
-$gravatar = is_ssl() ? 'https://secure.gravatar.com/' : 'http://gravatar.com/';
+$gravatar = is_ssl() ? 'https://secure.gravatar.com/avatar/' : 'http://0.gravatar.com/avatar/';
 
 foreach ( $credits['groups'] as $group_slug => $group_data ) {
 	if ( $group_data['name'] ) {
@@ -179,6 +179,7 @@ __( 'Core Contributors to WordPress %s' );
 __( 'Contributing Developers' );
 __( 'Cofounder, Project Lead' );
 __( 'Lead Developer' );
+__( 'Release Lead' );
 __( 'User Experience Lead' );
 __( 'Core Developer' );
 __( 'Core Committer' );
